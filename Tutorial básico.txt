@@ -1,0 +1,22 @@
+git clone https://github.com/izabellaorezende/AspCoreBasico.git
+
+git status -> verifica o que ainda não dado commit
+git add . -> prepara pro commit 
+git commit -m "Salvando ...." -> salva local e prepara pra enviar pro servidor
+git push origin master -> Salva no repositório original - envia pro servidor
+
+
+git pull -> Baixa atualização que outro programador 
+
+1 -> Cria o modelo
+2 -> Cria o contexto (Coloca o modelo no contexto -
+	Ex.:  public DbSet<Produto> Produto { get; set; })
+3 -> Cria o mapeamento
+4 -> Cria o repositorio
+5 -> Cria interface
+6 -> Cria classe
+7 -> Altera o startup
+8 -> Injeção de dependencia
+9 -> Cria controller
+10 -> Cria views
+11 -> Implementar controller
